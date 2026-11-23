@@ -1,0 +1,32 @@
+# Environment variables (CRITICAL: Do not commit API keys)
+.env
+.env.local
+.env.*.local
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Generated audit reports
+data/*.json
+data/*.html
+!data/.gitkeep
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
